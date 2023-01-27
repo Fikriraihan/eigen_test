@@ -36,9 +36,6 @@ const News: React.FC<Props> = ({ text }) => {
           </Col>
         ))}
       </Row>
-      {/* {articles.map(({ index, title, description, url, urlToImage }) => (
-        <Items key={index} title={title} description={description} url={url} urlToImage={urlToImage} />
-      ))} */}
     </div>
   );
 };
